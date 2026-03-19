@@ -94,6 +94,7 @@ All results are saved in the `output/` folder:
 | `<scene_name>.png` | Annotated image with red (YOLO) and green (GT) bounding boxes, IoU values, and distance labels |
 | `distance_comparison.png` | Scatter plot comparing estimated vs ground truth distances |
 
+
 ### Sample Output
 
 Each annotated image shows:
@@ -102,6 +103,13 @@ Each annotated image shows:
 - **Labels**: IoU score, YOLO estimated distance, GT distance
 - **Title bar**: Precision and Recall for that scene
 
+![Sample Detection - 006227](output/006227.png)
+
+![Sample Detection - 006059](output/006059.png)
+
+### Distance Comparison
+
+![Distance Comparison](output/distance_comparison.png)
 ## Results
 
 - Distance estimation works well for unoccluded cars on flat roads (error < 2m)
