@@ -1,0 +1,11 @@
+﻿KITTI_Selection/
+KITTI_Selected/
+output/
+*.pt
+__pycache__/
+*.pyc
+venv/
+.venv/
+.vscode/
+.DS_Store
+Thumbs.db
